@@ -2,22 +2,20 @@
 
 ##Introducción.
 
-####1.- Temática. 
+#### Temática. 
 La temática elegida para este proyecto es el modelo de negocios utilizado en las aplicaciones digitales conocidas popularmente como “apps de delivery”. En el caso concreto se tomó a la empresa Rappi. 
 
-####1.- Objetivo.
+#### Objetivo.
 El presente trabajo tendrá como principal objetivo el desarrollo de una base de datos que pueda ser utilizada en una plataforma digital que se dedica a la intermediación entre usuarios gastronómicos y los diversos establecimientos culinarios. Todo ello, facilitando su materialización permitiendo que una tercera parte (Rappi tendero) lleve de forma eficiente y rápida el pedido hecho por el cliente. 
 
 Los datos que serán almacenados en la base de datos que se construirá como trabajo final tendrá como objetivo almacenar datos cuantitativos y cualitativos. Todo ello, a los efectos de poder determinar estrategias de carácter empresarial. 
 
-####2.- Hipótesis. 
+#### Hipótesis. 
 
 El objetivo del análisis que se llevará a cabo una vez finalizada la creación de la base de datos será analizar la tendencia de los consumidores, ya que el objetivo será poseer datos cualitativos tal como se señaló en el punto anterior. Todo ello, con un enfoque en los consumidores, su edad, género y zona donde estos residen. 
 Asimismo, se intentará analizar si existe o no una preferencia respecto a un producto en particular, como así también si es posible determinar un índice de cancelaciones de órdenes respecto a las órdenes que son efectivamente entregadas. En adición a ello, lograr entender cuál es el tiempo promedio en que se recepta la orden y esta es entregada.
 
-##Capítulo 2.
-
-####1.- Objetivo.
+#### Objetivo.
 
 El objetivo principal es la creación de una base de datos que pueda ser utilizada por la organización con un esquema de negocio similar a la aplicación Rappi. Asimismo, como objetivo general del proyecto se busca hacer consultas a la base de datos que nos permitan tomar mejores decisiones a la hora de lanzar campañas publicitarias, de descuentos o tomar decisiones estratégicas para robustecer la presencia de la empresa en ciertas zonas específicas donde la demanda de productos sea más elevada. 
 
@@ -30,7 +28,7 @@ Sin perjuicio de que el producto final sería de utilización para la organizaci
 
 3.	Poseer conocimiento de los usuarios a los efectos de determinar cuales son sus preferencias y apuntar adecuadamente los recursos de marketing, fidelización de la empresa. Entre otras campañas o futuros lanzamientos de ofertas. 
 
-## Capítulo 3.
+## Entidades incluidas en la  BD
 
 1.- Posibles entidades que encontrarán incluidas en la BD desarrollado. 
 
@@ -46,7 +44,11 @@ Las posibles entidades que formarían parte de la BD serían las siguientes:
 ## Tabla de Contenidos
 
 - [Desarrollo de base de datos Rappi plataforma de intermediación entre comercios gastronómicos y usuarios.](#desarrollo-de-base-de-datos-rappi-plataforma-de-intermediación-entre-comercios-gastronómicos-y-usuarios)
-  - [Capítulo 3.](#capítulo-3)
+      - [Temática.](#temática)
+      - [Objetivo.](#objetivo)
+      - [Hipótesis.](#hipótesis)
+      - [Objetivo.](#objetivo-1)
+  - [Entidades incluidas en la  BD](#entidades-incluidas-en-la--bd)
   - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Estructura de la Base de Datos](#estructura-de-la-base-de-datos)
     - [Usuarios.](#usuarios)
