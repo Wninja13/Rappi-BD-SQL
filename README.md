@@ -1,6 +1,6 @@
 # Desarrollo de base de datos Rappi plataforma de intermediación entre comercios gastronómicos y usuarios.
 
-##Introducción.
+## Introducción.
 
 #### Temática. 
 La temática elegida para este proyecto es el modelo de negocios utilizado en las aplicaciones digitales conocidas popularmente como “apps de delivery”. En el caso concreto se tomó a la empresa Rappi. 
