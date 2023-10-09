@@ -84,7 +84,7 @@ FK	Tienda_ID	Int. 	Cada tienda posee un número de identificación. Permite la r
 ### Usuarios. 
 La entidad usuarios posee datos de los usuarios que utilizan la aplicación y efectúan pedidos mediante la aplicación. 
 
-#####Estructura de la tabla.
+##### Estructura de la tabla.
 
 PK	Usuario_ID	Int.	Cada usuario posee un número asignado.
 FK	Orden_ID	Int.	Numero que identifica la orden y funciona para relacionarla con la entidad“Ordenes”.
@@ -97,7 +97,7 @@ FK	Repartidor_ID	Int.	Número que identifica al repartidor asignado y la relacio
 ### Repartidores. 
 Esta entidad contiene información sobre los repartidores que será asociado a un usuario y órdenes. Cada uno de ellos tiene asignado ID, mediante por el cual, se identifica a cada uno de ellos. 
 
-#####Estructura de la tabla.
+##### Estructura de la tabla.
 
 PK	Repartidor_ID	Int.	Código numérico para identificar a cada repartidor.
 FK	Orden_ID	Int.	Número que identifica la orden y funciona para relacionarla con la entidad “Ordenes”.
@@ -108,7 +108,7 @@ FK	Usuario_ID	Int.	Cada usuario posee un número de identificación. Permite la 
 ### Tiendas. 
 La entidad contiene información de cada una de las tiendas o “aliados” que reciben las órdenes de los usuarios y luego son entregados por los repartidores en los domicilios indicados. 
 
-#####Estructura de la tabla.
+##### Estructura de la tabla.
 
 PK	Tienda_ID	Int. 	Número que identifica de forma única a cada una de las tiendas. 
 FK	Orden_ID	Int.	Número que identifica cada una de las órdenes. Permite la relación con la entidad “Ordenes”. 
@@ -121,7 +121,7 @@ FK	Orden_ID	Int.	Número que identifica cada una de las órdenes. Permite la rel
 Esta entidad contiene cada uno de los productos que se encuentran catalogados en la aplicación y que son susceptibles de ser comprados por los usuarios. Dichos productos deben ser ofrecidos por las tiendas que se encuentran en la aplicación. 
 
 
-#####Estructura de la tabla.
+##### Estructura de la tabla.
 
 PK	Producto_ID	Int.	Número que individualiza a cada producto.
 FK	Orden_ID	Int.	Numero que individualiza cada orden. Funciona para relacionar la entidad “Productos” con la entidad “Ordenes”.
@@ -133,7 +133,7 @@ FK	Tienda_ID	Int.	Número identificatorio de la tienda. Relaciona la entidad con
 ### Pagos. 
 En esta entidad se guardan los datos referenciados a los pagos efectuados por los usuarios en las compras efectuadas en los establecimientos gastronómicos.
 
-#####Estructura de la tabla.
+##### Estructura de la tabla.
 
 PK	Pago_ID	Int.	Es la identificación numérica de cada uno de los pagos efectuados.
 FK	Usuario_ID	Int.	Identificación de cada uno de los usuarios y relaciona con la entidad “Usuarios”.
